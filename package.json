@@ -1,0 +1,23 @@
+{
+  "name": "lex-v2-bot-builder",
+  "version": "1.0.0",
+  "description": "Build an Amazon Lex V2 Chatbot using AWS SDK",
+  "main": "dist/bot.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && node dist/bot.js"
+  },
+  "keywords": [],
+  "author": "azaverc@amazon.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@aws-sdk/client-lex-models-v2": "^3.427.0",
+    "ora": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
